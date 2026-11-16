@@ -1,0 +1,11 @@
+{
+  "name": "aid-website-structure-final",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Africa Infrastructures Developpement website structure prototype",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check site.js && node --check building-journey.js && node --check lift-journey.js && node --check motion.js"
+  }
+}
